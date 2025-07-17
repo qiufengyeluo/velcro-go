@@ -1,8 +1,9 @@
 package accounts
 
 import (
+	"github.com/yamakiller/velcro-go/example/monopoly/login.service/accounts/locals"
 	"github.com/yamakiller/velcro-go/example/monopoly/login.service/accounts/sign"
-	"github.com/yamakiller/velcro-go/example/monopoly/login.service/accounts/steam"
+	// "github.com/yamakiller/velcro-go/example/monopoly/login.service/accounts/steam"
 )
 
 var (
@@ -10,6 +11,6 @@ var (
 )
 
 func init() {
-	signHandle = &steam.SteamSign{}
+	// signHandle = &steam.SteamSign{}
+	signHandle = &locals.LocalSign{}
 }
-

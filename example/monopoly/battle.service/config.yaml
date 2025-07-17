@@ -6,7 +6,7 @@ server:
   battle_space_die_time: 3600
 redis:
   address: 0.0.0.0:6379
-  password: yqXaWje245RPbsn*
+  password: 
   timeout:
     dial: 5000
     read: 2000
